@@ -139,7 +139,7 @@ Distributions mostly differ in their package manager and their default choices (
 
 <h2 class="center">Comparison of Linux Distributions</h2>
 <p class="center">Source: eylenburg.github.io</p>
-<p class="center" style="color: red; font-size: small;">Last updated: 21 August 2026</p>
+<p class="center" style="color: red; font-size: small;">Last updated: 28 August 2026</p>
 <p style="font-size: 75%; font-style: italic;"> This table is best viewed on a monitor with 1920px width (Full HD) with 100% display scaling.</p>
 
 <div>
@@ -842,6 +842,27 @@ Distributions mostly differ in their package manager and their default choices (
 </tr>
 
 <tr>
+<td class="legend tooltip">Default X11 server for X11 desktop sessions<span class="tooltiptext">For Wayland sessions (e.g. GNOME, KDE, COSMIC), the XWayland server is used to run apps that only work in X11. However, XWayland cannot be used to run a full desktop environment.</span></td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="tooltip">None<span class="tooltiptext">X.org has been dropped from the SLE 16 repository. X11-exclusive apps run via XWayland. GNOME on Wayland is the only officially supported desktop. Other desktop enviroments, for both Wayland and X11 (X.org), are available if installed from the Package Hub repo, but they are not officially supported.</span></td>
+<td class="grey">X.org</td>
+<td class="tooltip">None<span class="tooltiptext">X.org has been dropped from the RHEL 10 repository. X11-exclusive apps run via XWayland. GNOME on Wayland is the only officially supported desktop. KDE Plasma (on Wayland) is available if installed from the unofficial EPEL repo.</span></td>
+<td class="blue2">XLibre</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+<td class="grey">X.org</td>
+</tr>
+
+<tr>
 <td class="legend">Core utilities</td>
 <td class="grey">GNU</td>
 <td class="purple">uutils</td>
@@ -1047,7 +1068,7 @@ Distributions mostly differ in their package manager and their default choices (
 <td class="splitcell"><table class="split"><tr><td class="almost">Option d. inst.</td><td class="no">No</td></tr></table></td>
 <td class="notreally">In Package Hub</td>
 <td class="splitcell"><table class="split"><tr><td class="almost">Xfce Spin</td><td class="no">No</td></tr></table></td>
-<td class="notreally">In EPEL</td>
+<td class="no">No</td>
 <td class="mixed">In repo</td>
 <td class="almost">Avai&shy;lable as Live Image</td>
 <td class="almost">Xfce Edition</td>
@@ -1068,7 +1089,7 @@ Distributions mostly differ in their package manager and their default choices (
 <td class="splitcell"><table class="split"><tr><td class="mixed">In repo</td><td class="no">No</td></tr></table></td>
 <td class="notreally">In Package Hub</td>
 <td class="splitcell"><table class="split"><tr><td class="almost">MATE Spin</td><td class="no">No</td></tr></table></td>
-<td class="notreally">In EPEL</td>
+<td class="no">No</td>
 <td class="mixed">In repo</td>
 <td class="mixed">In repo</td>
 <td class="almost">MATE Edition</td>
@@ -1108,9 +1129,9 @@ Distributions mostly differ in their package manager and their default choices (
 <td class="almost">Option during instal&shy;lation</td>
 <td class="almost">Ubuntu Cinnamon</td>
 <td class="splitcell"><table class="split"><tr><td class="mixed">In repo</td><td class="no">No</td></tr></table></td>
-<td class="notreally">In Package Hub</td>
+<td class="no">No</td>
 <td class="splitcell"><table class="split"><tr><td class="almost">Cinnamon Spin</td><td class="no">No</td></tr></table></td>
-<td class="notreally">In EPEL</td>
+<td class="no">No</td>
 <td class="mixed">In repo</td>
 <td class="mixed">In repo</td>
 <td class="mixed">In repo</td>
@@ -1131,7 +1152,7 @@ Distributions mostly differ in their package manager and their default choices (
 <td class="splitcell"><table class="split"><tr><td class="mixed">In repo</td><td class="no">No</td></tr></table></td>
 <td class="no">No</td>
 <td class="splitcell"><table class="split"><tr><td class="almost"><span style="font-size: 80%;">COSMIC</span> Spin</td><td class="almost"><span style="font-size: 80%;">COSMIC</span> Atomic</td></tr></table></td>
-<<td class="notreally">via Fedora COPR</td>
+<td class="no">No</td>
 <td class="mixed">In repo</td>
 <td class="no">No</td>
 <td class="no">No</td>

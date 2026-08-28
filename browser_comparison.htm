@@ -79,7 +79,7 @@ The result of the comparison is less clear than last time. In terms of pure feat
 
 <h2 class="center">Comparison of Web Browsers</h2>
 <p class="center">Source: eylenburg.github.io</p>
-<p class="center" style="color: red; font-size: small;">Last updated: 31 July 2026</p>
+<p class="center" style="color: red; font-size: small;">Last updated: 28 August 2026</p>
 <p style="font-size: 75%; font-style: italic;"> This table is best viewed on a monitor with 1920px width (Full HD) with 100% display scaling.</p>
 
 <input id="desktop" type="checkbox" checked /><label for="desktop"> Show Desktop browsers</label>
@@ -809,7 +809,7 @@ The result of the comparison is less clear than last time. In terms of pure feat
 <!-- Firefox -->
 <td class="desktop ext">with extension</td>
 <td class="android ext">w/ ext.</td>
-<td class="ios no tooltip">No<span class="tooltiptext">can be enabled in the Beta or Developer version via Feature Flag menu</span></td>
+<td class="ios yes">Yes</td>
 <!-- Safari -->
 <td class="desktop ext">with extension</td>
 <td class="ios_wide ext">with extension</td>
@@ -964,31 +964,31 @@ The result of the comparison is less clear than last time. In terms of pure feat
 <td class="legend tooltip">Partitioning of third-party storage (excl. cookies)<span class="tooltiptext">See <a href="https://privacytests.org/" target="_blank">PrivacyTests.org</a> for detailed tests of state partitioning.</span></td>
 <!-- Firefox -->
 <td class="desktop yes">Yes</td>
-<td class="desktop almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing</span></td>
-<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
+<td class="android almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing</span></td>
+<td class="ios almost tooltip">Mostly<span class="tooltiptext">HSTS cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
 <!-- Safari -->
-<td class="desktop yes">Yes</td>
-<td class="ios_wide yes">Yes</td>
+<td class="desktop almost tooltip">Mostly<span class="tooltiptext">HSTS cache is still missing.</span></td>
+<td class="ios_wide almost tooltip">Mostly<span class="tooltiptext">HSTS cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
 <!-- Chrome -->
-<td class="desktop almost">Mostly</td>
-<td class="desktop almost">Mostly</td>
-<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
+<td class="desktop no">Partially</td>
+<td class="android no">Partially</td>
+<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon and HSTS cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
 <!-- Edge -->
-<td class="desktop almost">Mostly</td>
-<td class="desktop almost">Mostly</td>
-<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
+<td class="desktop no">Partially</td>
+<td class="android no">Partially</td>
+<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon and HSTS cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
 <!-- Opera -->
-<td class="desktop almost">Mostly</td>
-<td class="desktop almost">Mostly</td>
-<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
+<td class="desktop no">Partially</td>
+<td class="android no">Partially</td>
+<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon and HSTS cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
 <!-- Vivaldi -->
-<td class="desktop almost">Mostly</td>
-<td class="desktop almost">Mostly</td>
-<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
+<td class="desktop no">Partially</td>
+<td class="android no">Partially</td>
+<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon and HSTS cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
 <!-- Brave -->
 <td class="desktop yes">Yes</td>
 <td class="android yes">Yes</td>
-<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
+<td class="ios almost tooltip">Mostly<span class="tooltiptext">Favicon and HSTS cache is still missing. WebKit's "Intelligent Tracking Protection" applies to all iOS browsers</span></td>
 </tr>
 
 <tr>
@@ -2022,7 +2022,7 @@ The result of the comparison is less clear than last time. In terms of pure feat
 <td class="ios no">No</td>
 <!-- Vivaldi -->
 <td class="desktop yes">Yes</td>
-<td class="android no">No</td>
+<td class="android yes">Yes</td>
 <td class="ios no">No</td>
 <!-- Brave -->
 <td class="desktop yes">Yes</td>
@@ -2056,7 +2056,7 @@ https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox</span
 <td class="ios no">No</td>
 <!-- Vivaldi -->
 <td class="desktop almost tooltip">"Lite" version only<span class="tooltiptext">support for full uBlock Origin was dropped in 2025 or 2026 following upstream changes made by Google</span></td>
-<td class="android no">No</td>
+<td class="android almost">Yes (Lite)</td>
 <td class="ios no">No</td>
 <!-- Brave -->
 <td class="desktop yes tooltip">Yes<span class="tooltiptext">some features only available on Firefox:<br />
